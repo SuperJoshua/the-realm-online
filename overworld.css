@@ -1,0 +1,226 @@
+body {
+   font-size: 2vh;
+   user-select: none;
+}
+button {
+   background-color: transparent;
+   border-style: none;
+   color: #000000;
+   cursor: pointer;
+   font-size: inherit;
+}
+header {
+   padding-left: 1em;
+   padding-top: 1em;
+}
+p {
+   padding-left: 1em;
+}
+table {
+   border-collapse: collapse;
+   font-size: 0.3em;
+   left: 0px;
+   position: absolute;
+   top: 0px;
+}
+td {
+   animation-duration: 0s;
+   animation-iteration-count: infinite;
+   animation-name: highlight;
+   text-align: center;
+}
+td:hover {
+   background-color: #ffffff;
+   color: #000000;
+}
+ul {
+   padding-left: 2em;
+}
+@keyframes highlight{
+   0% {background-color: #ffffff; color: #ff00ff;}
+   50% {background-color: #777777; color: #ff00ff;}
+   100% {background-color: #ffffff; color: #ff00ff;}
+}
+.warning {
+   background-color: #ff0000;
+   color: #ffffff;
+   font-size: 2em;
+}
+.empty {
+   background-color: transparent;
+}
+.dungeon {
+   background-color: #000000;
+   color: #ffffff;
+}
+.the_downs {
+   background-color: #006633;
+   color: #ffffff;
+}
+.drear_valley {
+   background-color: #00A933;
+   color: #ffffff;
+}
+.leinster_kurz_road {
+   background-color: #069A2E;
+   color: #ffffff;
+}
+.bloodwood {
+   background-color: #127622;
+   color: #ffffff;
+}
+.emerald_forest {
+   background-color: #158466;
+   color: #ffffff;
+}
+.killing_fields {
+   background-color: #168253;
+   color: #ffffff;
+}
+.the_wild_beyond {
+   background-color: #50938A;
+   color: #ffffff;
+}
+.zenders_woods {
+   background-color: #224B12;
+   color: #ffffff;
+}
+.forest_of_death {
+   background-color: #28471F;
+   color: #ffffff;
+}
+.winter_wold {
+   background-color: #bbddff;
+   color: #000000;
+}
+.fafnirs_swamp {
+   background-color: #355269;
+   color: #ffffff;
+}
+.wandering_woods {
+   background-color: #395511;
+   color: #ffffff;
+}
+.south_havenwood {
+   background-color: #3FAF46;
+   color: #ffffff;
+}
+.konge {
+   background-color: #443205;
+   color: #ffffff;
+}
+.devon_forest {
+   background-color: #468A1A;
+   color: #ffffff;
+}
+.wexfordshire_valley {
+   background-color: #1E6A39;
+   color: #ffffff;
+}
+.west_havenwood {
+   background-color: #5EB91E;
+   color: #ffffff;
+}
+.fallows {
+   background-color: #706E0C;
+   color: #ffffff;
+}
+.water {
+   background-color: #729FCF;
+   color: #000000;
+}
+.northern_steppes {
+   background-color: #77BC65;
+   color: #000000;
+}
+.building {
+   background-color: #784B04;
+   color: #ffffff;
+}
+.north_havenwood {
+   background-color: #81D41A;
+   color: #000000;
+}
+.the_badlands {
+   background-color: #ACB20C;
+   color: #ffffff;
+}
+.crystal_mountains {
+   background-color: #AFD095;
+   color: #000000;
+}
+.road {
+   background-color: #B47804;
+   color: #ffffff;
+}
+.town {
+   background-color: #B85C00;
+   color: #ffffff;
+}
+.east_havenwood {
+   background-color: #BBE33D;
+   color: #000000;
+}
+.teleporter {
+   background-color: #BF819E;
+   color: #ffffff;
+}
+.the_barrens {
+   background-color: #E6E905;
+   color: #000000;
+}
+.ascetos_desert {
+   background-color: #FFFF38;
+   color: #000000;
+}
+.ascetos_deep_desert {
+   background-color: #FFFF6D;
+   color: #000000;
+}
+#info_box {
+   background-color: #ffffff;
+   border-right: 2px solid #000000;
+   color: #000000;
+   display: none;
+   height: 100%;
+   left: 0;
+   overflow: auto;
+   position: fixed;
+   top: 0;
+   user-select: text;
+   width: 20%;
+}
+#hide_info {
+   display: none;
+   font-size: 2em;
+   left: 17%;
+   position: fixed;
+   top: 1%;
+}
+#show_collections {
+   display: block;
+   font-size: 3em;
+   position: fixed;
+   right: 3%;
+   top: 3%;
+}
+#collections_box{
+   background-color: #ffffff;
+   border-left: 2px solid #000000;
+   color: #000000;
+   display: none;
+   height: 100%;
+   overflow: auto;
+   position: fixed;
+   right: 0;
+   top: 0;
+   user-select: text;
+   width: 20%;
+}
+#hide_collections {
+   display: none;
+   font-size: 2em;
+   position: fixed;
+   right: 2%;
+   top: 1%;
+}
