@@ -22542,6 +22542,103 @@ const cells = {
       "dungeon": "The Maze",
       "maps": ["https://web.archive.org/web/20031012175528/http://www.realmoracle.com/d-maze.htm", "https://realm.holtgard.com/map_the_maze.html", "http://realmlovers.freehostia.com/map_the_maze.html"]
    },
+   "28250": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28251": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28252": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28253": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28254": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28255": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28256": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28257": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28258": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28259": {
+      "region": "Summer Festival",
+      "name": "The Sandbar"
+   },
+   "28260": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28261": {
+      "region": "Summer Festival",
+      "name": "Summer Festival",
+      "feature": "Douglas"
+   },
+   "28262": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28263": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28264": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28265": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28266": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28267": {
+      "region": "Summer Festival",
+      "name": "Summer Festival"
+   },
+   "28268": {
+      "region": "Summer Festival",
+      "name": "Summer Festival",
+      "shop": "Summer Festival",
+      "sells": ["clothing"]
+   },
+   "28269": {
+      "region": "Summer Festival",
+      "name": "Summer Festival",
+      "shop": "Summer Festival",
+      "sells": ["clothing"]
+   },
+   "28270": {
+      "region": "Summer Festival",
+      "name": "Summer Festival",
+      "shop": "Summer Festival",
+      "sells": ["clothing"]
+   },
+   "28271": {
+      "region": "Summer Festival",
+      "name": "Summer Festival",
+      "shop": "Summer Festival",
+      "sells": ["clothing"]
+   },
    "29000": {
       "region": "Fafnir's Swamp",
       "name": "Fafnir’s Swamp"

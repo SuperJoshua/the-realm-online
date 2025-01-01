@@ -1,4 +1,4 @@
-const monsterless_regions = ["Arimathor", "Asgard", "Caer Fandry", "Drune", "Kurz", "Leinster", "Monmouth", "Murias", "Silverbrook", "Temple of Despothes", "Temple of Duach", "Temple of Elphame", "Temple of Enid", "Temple of Finvarra", "Temple of Mabon", "Usk", "Wen"]
+const monsterless_regions = ["Arimathor", "Asgard", "Caer Fandry", "Drune", "Kurz", "Leinster", "Monmouth", "Murias", "Silverbrook", "Summer Festival", "Temple of Despothes", "Temple of Duach", "Temple of Elphame", "Temple of Enid", "Temple of Finvarra", "Temple of Mabon", "Usk", "Wen"]
 
 const regions = {
    "Ascetos Desert": {
