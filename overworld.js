@@ -49,26 +49,26 @@ const zoom_map = function(ev){
 
 const info_box = document.getElementById("info_box")
 
-const show_info_box = function(id){
-   const room = cells[id]
+const show_info_box = function(cell){
+   const room = cells[cell.id]
    
    info_box.innerHTML = ''
    
    const room_number = document.createElement("header")
-   room_number.innerHTML = id
+   room_number.innerHTML = cell.id
    info_box.appendChild(room_number)
 
    const room_name = document.createElement("p")
-   room_name.innerHTML = '"' + room["name"] + '"'
+   room_name.innerHTML = `"${room["name"]}"`
    info_box.appendChild(room_name)
 
    const room_region = document.createElement("p")
-   room_region.innerHTML = "region: " + room["region"]
+   room_region.innerHTML = `region: ${room["region"]}`
    info_box.appendChild(room_region)
 
    if ("dungeon" in room){
       const room_dungeon = document.createElement("p")
-      room_dungeon.innerHTML = "dungeon entrance to: " + room["dungeon"]
+      room_dungeon.innerHTML = `dungeon entrance to: ${room["dungeon"]}`
       info_box.appendChild(room_dungeon)
    }
 
@@ -88,25 +88,25 @@ const show_info_box = function(id){
 
    if ("feature" in room){
       const room_feature = document.createElement("p")
-      room_feature.innerHTML = "feature: " + room["feature"]
+      room_feature.innerHTML = `feature: ${room["feature"]}`
       info_box.appendChild(room_feature)
    }
 
    if ("teleporter" in room){
       const room_teleporter = document.createElement("p")
-      room_teleporter.innerHTML = "teleports to: " + room["teleporter"]
+      room_teleporter.innerHTML = `teleports to: ${room["teleporter"]}`
       info_box.appendChild(room_teleporter)
    }
 
    if ("shop" in room){
       const room_shop = document.createElement("p")
-      room_shop.innerHTML = "shop name: " + room["shop"]
+   room_shop.innerHTML = `shop name: ${room["shop"]}`
       info_box.appendChild(room_shop)
    }
 
    if ("teacher" in room){
       const room_teacher = document.createElement("p")
-      room_teacher.innerHTML = "teacher of: " + room["teacher"]
+   room_teacher.innerHTML = `teacher of: ${room["teacher"]}`
       info_box.appendChild(room_teacher)
    }
 
@@ -149,9 +149,9 @@ const collections_box = document.getElementById("collections_box")
 let animated_cells = []
 
 const stop_animation = function(){
-   for (const cell of animated_cells){
+   for (let cell of animated_cells){
       const x = document.getElementById(cell)
-      x.style.animationDuration = "0s"
+      x.classList.toggle('highlight')
    }
 
    animated_cells = []
@@ -161,9 +161,9 @@ const highlight = function(category){
    stop_animation()
    
    animated_cells = Array.from(categories[category])
-   for (const cell of animated_cells){
+   for (let cell of animated_cells){
       const x = document.getElementById(cell)
-      x.style.animationDuration = "1s"
+      x.classList.toggle('highlight')
    }
 }
 
