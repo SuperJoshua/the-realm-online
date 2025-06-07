@@ -9,10 +9,6 @@ button {
    cursor: pointer;
    font-size: inherit;
 }
-header {
-   padding-left: 1em;
-   padding-top: 1em;
-}
 p {
    padding-left: 1em;
 }
@@ -183,6 +179,8 @@ ul {
    background-color: #eeee33;
    color: #000000;
 }
+.category {}
+.map_tile {}
 #info_box {
    background-color: #ffffff;
    border-right: 2px solid #000000;
@@ -228,5 +226,5 @@ ul {
    font-size: 2em;
    position: fixed;
    right: 2%;
-   top: 1%;
+   top: 3%;
 }

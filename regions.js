@@ -1,6 +1,6 @@
-const monsterless_regions = ["Arimathor", "Asgard", "Caer Fandry", "Drune", "Kurz", "Leinster", "Monmouth", "Murias", "Silverbrook", "Summer Festival", "Temple of Despothes", "Temple of Duach", "Temple of Elphame", "Temple of Enid", "Temple of Finvarra", "Temple of Mabon", "Usk", "Wen"]
+export const monsterless_regions = ["Arimathor", "Asgard", "Caer Fandry", "Drune", "Kurz", "Leinster", "Monmouth", "Murias", "Silverbrook", "Summer Festival", "Temple of Despothes", "Temple of Duach", "Temple of Elphame", "Temple of Enid", "Temple of Finvarra", "Temple of Mabon", "Usk", "Wen"]
 
-const regions = {
+export const regions = {
    "Ascetos Desert": {
       "berserker": [2852, 3274],
       "champion": [11710, 12580],
